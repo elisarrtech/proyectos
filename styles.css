@@ -12,10 +12,9 @@ body {
     text-align: center; /* Alinea el texto al centro de la página */
 }
 
-}
 
 header {
-    background-color: #333;
+    background-image: linear-gradient(258.75deg, rgb(67, 177, 200) 31.33%, rgb(153, 137, 235) 48.42%, rgb(217, 127, 209) 59.35%, rgb(245, 130, 178) 65.56%);
     color: #fff;
     text-align: center;
     padding: 20px 0;
@@ -24,13 +23,15 @@ header {
 header h1 {
     margin: 0;
     font-size: 2em;
-    color: #ffffff;
+    color: #f7fafd;
+ 
 }
+
 
 header h2 {
     margin: 0;
     font-size: 1.2em;
-    color: #e74ac0;
+    color: #15085a;
     text-shadow: 8px 4px 4px rgba(197, 189, 189, 0.5); /* Agrega una sombra/luz alrededor del texto */
 }
 
@@ -47,14 +48,16 @@ img {
   /* Estilo para la imagen centrada */
 .imagen-centrada {
     display: block;
-    
+
 }
 
 .contenedor-header{
 
 
     padding: 20px;
-    margin: 0%;
+    margin: 20px;
+    background-image: linear-gradient(258.75deg, rgb(67, 177, 200) 31.33%, rgb(153, 137, 235) 48.42%, rgb(217, 127, 209) 59.35%, rgb(245, 130, 178) 65.56%);
+    background-clip: text;
 
 }
 /* Estilo para el contenedor de la imagen */
@@ -67,7 +70,8 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto; /* Centra la imagen horizontalmente */
+    margin: auto; /* Centra la imagen horizontalmente */
+    
 }
 
 /* Estilo para la imagen dentro del contenedor */
@@ -84,8 +88,12 @@ img {
 nav {
     background-color: #09017A; /* Fondo azul */
     display: flex;
-    justify-content: flex-start; /* Alinea los elementos al inicio(izquierda) */
+    justify-content: center; /* Alinea los elementos al inicio(izquierda) */
     margin-top: 0px;
+    position: fixed; /* Fija el menú en la pantalla */
+    top: 0; /* Lo fija en la parte superior */
+    left: 0; /* Lo fija en la parte izquierda */
+    width: 100%; /* Asegura que el menú ocupe todo el ancho de la pantalla */
 }
 
 
@@ -119,13 +127,13 @@ a:hover {
     color: #fff;
     text-align: center;
 }
-.container {
+.contenedor-secciones {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 80vh;
-    text-align: center;
+    flex-wrap: nowrap;
+    background-color: rgb(5, 2, 32);
+    box-shadow: 6px 8px 5px rgba(231, 228, 228, 0.5); /* Propiedad box-shadow */
+
+ 
 }
 
 .container-nav {
@@ -134,24 +142,50 @@ a:hover {
     background-color: #09017A;
     padding: 20px;
     max-width: 100%;
+    max-height: 75px;
     
 }
 
-.main-content {
-    background-color: #f5f5f5;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    max-width: 1200px;
-    width: 90%;
+.seccion-derecha, .seccion-izquierda{
+    justify-content: center;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 600px;
+    /* Estilo para las secciones */
+    flex: 1; /* Hace que ambas secciones ocupen el mismo ancho en el contenedor */
+    padding: 20px; /* Añade espacio alrededor de las secciones */
+    border: 1px solid #ccc; /* Agrega un borde a las secciones (opcional) */
+    background-color: #f1f1f1;
+    width: 100px;
+    text-align: center;
+    line-height: auto;
+    font-size: 20px;
+    box-shadow: 6px 8px 5px rgba(235, 231, 231, 0.5); /* Propiedad box-shadow */
 }
 
 
 
 footer {
+    
     background-color: #333;
     color: #fff;
     text-align: center;
     padding: 10px 0;
 }
+
+/* Estilo para el botón "Ir a Inicio" en el pie de página */
+.boton-ir-a-inicio {
+    display: block; /* Muestra el botón como un elemento en bloque */
+    margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio en la parte superior y inferior */
+    padding: 10px 20px; /* Añade relleno al botón para que sea más grande y fácil de hacer clic */
+    background-color: #007BFF; /* Cambia el color de fondo del botón */
+    color: #fff; /* Cambia el color del texto del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
 
