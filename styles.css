@@ -1,8 +1,17 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+    
+    /* Estilo para el cuerpo de la página con fondo degradado */
+
+    background-image: linear-gradient(to bottom, #04053d, #42379e); /* Definición del degradado */
+    margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+    font-family: Arial, sans-serif; /* Cambia la fuente de texto si lo deseas */
+    color: #574d4d; /* Cambia el color de texto si lo deseas */
+    text-align: center; /* Alinea el texto al centro de la página */
+}
+
 }
 
 header {
@@ -22,18 +31,60 @@ header h2 {
     margin: 0;
     font-size: 1.2em;
     color: #e74ac0;
+    text-shadow: 8px 4px 4px rgba(197, 189, 189, 0.5); /* Agrega una sombra/luz alrededor del texto */
 }
 
 main {
     padding: 20px;
 }
 
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Estilo para la imagen centrada */
+.imagen-centrada {
+    display: block;
+    
+}
+
+.contenedor-header{
+
+
+    padding: 20px;
+    margin: 0%;
+
+}
+/* Estilo para el contenedor de la imagen */
+.contenedor-imagen {
+    padding: 0px;
+    width: 200px; /* Cambia el ancho según tus necesidades */
+    height: 200px; /* Cambia la altura según tus necesidades */
+    border-radius: 50%; /* Aplica una máscara circular */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+/* Estilo para la imagen dentro del contenedor */
+.contenedor-imagen img {
+    width: 100%; /* Asegura que la imagen llene el contenedor circular */
+    height: 100%; /* Asegura que la imagen tenga la misma altura que el contenedor */
+    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
+    display: block; /* Elimina el espacio adicional debajo de la imagen */
+}
+
+
 
 /* Estilos del menú */
 nav {
-    background-color: #1827ad; /* Fondo negro */
+    background-color: #09017A; /* Fondo azul */
     display: flex;
-    justify-content: flex-start; /* Alinea los elementos al final (derecha) */
+    justify-content: flex-start; /* Alinea los elementos al inicio(izquierda) */
     margin-top: 0px;
 }
 
@@ -50,9 +101,12 @@ li {
 
 a {
     text-decoration: none;
-    color: #e74ac0; /* Letra verde */
-    transition: color 0.3s; /* Transición de color en 0.3 segundos */
+    color: #ffffff; /* Letra verde */
+    font-weight: bold; /* Hace que el texto sea negrita */
+    text-shadow: 8px 4px 4px rgba(197, 189, 189, 0.5); /* Agrega una sombra/luz alrededor del texto */
 }
+
+
 
 /* Cambio de color en hover */
 a:hover {
@@ -77,11 +131,11 @@ a:hover {
 .container-nav {
     display: flex;
     justify-content: flex-end; /* Alinea los elementos al final (derecha) */
-    background-color: yellow;
+    background-color: #09017A;
     padding: 20px;
     max-width: 100%;
     
-   
+}
 
 .main-content {
     background-color: #f5f5f5;
@@ -91,6 +145,7 @@ a:hover {
     max-width: 1200px;
     width: 90%;
 }
+
 
 
 footer {
