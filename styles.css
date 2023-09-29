@@ -75,9 +75,8 @@ a:hover {
 }
 
 .container-nav {
-     background-color: #333;
+    background-color: #333;
     padding: 20px;
-    border: 1px solid #ddd;
     border-radius: 5px;
     max-width: 1200px;
     width: 90%;
