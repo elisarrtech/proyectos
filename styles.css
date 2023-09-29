@@ -76,6 +76,7 @@ a:hover {
 
 .container-nav {
     display: flex;
+    justify-content: flex-end; /* Alinea los elementos al final (derecha) */
     padding: 20px;
     max-width: 100%;
     
