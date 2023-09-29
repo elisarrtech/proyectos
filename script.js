@@ -18,3 +18,16 @@ setInterval(mostrarHorarioLocal, 1000);
 
 // Mostrar el horario local al cargar la página
 mostrarHorarioLocal();
+
+
+// Obtiene una referencia al botón por su ID
+const botonIrAInicio = document.getElementById("botonIrAInicio");
+
+// Agrega un oyente de eventos para el clic en el botón
+botonIrAInicio.addEventListener("click", function() {
+     // Redirige a la página "index.html"
+     window.location.href = "index.html";
+    // Aquí puedes agregar la acción que deseas realizar al hacer clic en el botón
+    // Por ejemplo, redirigir a la página de inicio o desplazarse hasta la parte superior de la página
+    // Puedes usar window.location.href = "tu_pagina_de_inicio.html"; para redirigir o window.scrollTo(0, 0); para desplazarte arriba.
+});
