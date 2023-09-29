@@ -15,25 +15,32 @@ header {
 header h1 {
     margin: 0;
     font-size: 2em;
+    color: #ffffff;
 }
 
 header h2 {
     margin: 0;
     font-size: 1.2em;
+    color: #e74ac0;
 }
 
 main {
     padding: 20px;
 }
 
+
 /* Estilos del menú */
 nav {
-    background-color: #000; /* Fondo negro */
+    background-color: #1827ad; /* Fondo negro */
+    display: flex;
+    justify-content: flex-start; /* Alinea los elementos al final (derecha) */
+    margin-top: 0px;
+}
 }
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 20;
 }
 
 li {
@@ -43,13 +50,20 @@ li {
 
 a {
     text-decoration: none;
-    color: #0a0; /* Letra verde */
+    color: #e74ac0; /* Letra verde */
     transition: color 0.3s; /* Transición de color en 0.3 segundos */
 }
 
 /* Cambio de color en hover */
 a:hover {
     color: #ccc; /* Color gris claro al pasar el mouse */
+}
+
+/* Estilos para mostrar la hora */
+.hora-local {
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
 }
 
 footer {
