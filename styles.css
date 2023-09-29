@@ -10,7 +10,7 @@ body {
     
     /* Estilo para el cuerpo de la página con fondo degradado */
 
-    background-image: linear-gradient(to bottom, #04053d, #42379e); /* Definición del degradado */
+    /*background-image: linear-gradient(to bottom, #04053d, #42379e); /* Definición del degradado */
     margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
     padding: 0; /* Elimina el relleno predeterminado del cuerpo */
     font-family: Arial, sans-serif; /* Cambia la fuente de texto si lo deseas */
@@ -68,8 +68,8 @@ img {
 
 /* Estilo para el contenedor de la imagen */
 .contenedor-imagen {
-    width: 150px; /* Reduzca el tamaño del contenedor de la imagen en pantallas pequeñas */
-    height: 150px; /* Reduzca el tamaño del contenedor de la imagen en pantallas pequeñas */
+   /* width: 150px; /* Reduzca el tamaño del contenedor de la imagen en pantallas pequeñas */
+   /*height: 150px; /* Reduzca el tamaño del contenedor de la imagen en pantallas pequeñas */
     padding: 0px;
     width: 200px; /* Cambia el ancho según tus necesidades */
     height: 200px; /* Cambia la altura según tus necesidades */
