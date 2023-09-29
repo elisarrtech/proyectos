@@ -26,6 +26,32 @@ main {
     padding: 20px;
 }
 
+/* Estilos del menú */
+nav {
+    background-color: #000; /* Fondo negro */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #0a0; /* Letra verde */
+    transition: color 0.3s; /* Transición de color en 0.3 segundos */
+}
+
+/* Cambio de color en hover */
+a:hover {
+    color: #ccc; /* Color gris claro al pasar el mouse */
+}
+
 footer {
     background-color: #333;
     color: #fff;
